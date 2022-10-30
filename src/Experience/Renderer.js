@@ -1,5 +1,5 @@
-import Experience from "./Experience";
 import * as THREE from "three";
+import Experience from "./Experience";
 
 export default class Renderer {
   constructor() {
@@ -8,8 +8,6 @@ export default class Renderer {
     this.scene = this.experience.scene;
     this.canvas = this.experience.canvas;
     this.camera = this.experience.camera;
-
-    console.log(this.camera);
 
     this.setRenderer();
   }
